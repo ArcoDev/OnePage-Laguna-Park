@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +15,450 @@
     <!--librerias-->
     <link rel="stylesheet" href="css/normalize.css">
 </head>
+
 <body>
+
+    <!----------------------------------cajas azules---------------------------------->
+    <div class="row text-center cajasAzul contenedor">
+        <div class="col-md-4 caja">
+            <img src="icons/cuadro.png" alt="">
+            <h1>30+</h1>
+            <p>Hectares of opportunity</p>
+        </div>
+        <div class="col-md-4 caja">
+            <img src="icons/usa.png" alt="">
+            <h1>332 miles</h1>
+            <p>To Laredo border</p>
+        </div>
+        <div class="col-md-4 caja">
+            <img src="icons/desarrollo.png" alt="">
+            <h1>40+</h1>
+            <p>Has. to be developed</p>
+        </div>
+    </div>
+    <!----------------------------------fin cajas azules---------------------------------->
+
+    <!----------------------------------columnas about------------------------------------>
+    <div class="row contenedor">
+        <div class="col-md-6 text-center cajaAbout">
+            <img class="imgAbout" src="img/LIP.png" alt="">
+        </div>
+        <div class="col-md-6 cajaAbout">
+            <div class="titulo">
+                <img class="rectangulo" src="img/rectangulo.png" alt="">
+                <p class="txtTit">ABOUT LAGUNA</p>
+            </div>
+            <h1 class="txtUni">A unique opportunity</h1>
+            <p class="txtDesc">Discover Laguna Industrial Park, where location converges with quality of life, to offer
+                a strategicinvestment opportunity with excelent connectivity.</p>
+            <ul class="txtLista">
+                <li>Privileged location notheastern Mexico</li>
+                <li>Adjacent to highway 40: Torreon – Saltillo – Monterrey</li>
+                <li>Class A industrial infrastructure</li>
+                <li>Wide educational offer</li>
+                <li>Business oriented Government Security and social peace</li>
+                <li>Quality of life</li>
+            </ul>
+        </div>
+    </div>
+    <!----------------------------------fin columnas about-------------------------------------->
+
+    <!--------------------------------columnas our model---------------------------------------->
+    <div class="row contenedor">
+        <div class="col-md-12 text-center ourModel">
+            <h1>Our model</h1>
+            <p>With over 35 Hectares of land, Laguna Industrial Park offers a flexible, “Build to Suit” model within
+                it’s land for sale and lease. Our three phase plan allows for a short, mid or long term plan, which can
+                adjust to your company’s needs and expectations.</p>
+            <h1>Aquí van las hectareas</h1>
+            <br>
+        </div>
+    </div>
+    <!----------------------------------fin columnas our model---------------------------------->
+
+    <!----------------------------------columnas download information--------------------------->
+    <section class="cajaDown">
+        <div class="row contenedor">
+            <div class="cajaImg col-md-12">
+                <div class="col-md-4 industrial">
+                    <div class="info">
+                        <img src="img/rec.png" alt="">
+                        <h1>Industrial Lots <br> for Sale</h1>
+                        <p style="width: 85%;">We sell fully developed Industrial Lots ranging from 1.1 hectares.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 bts">
+                    <div class="info">
+                        <img src="img/rec.png" alt="">
+                        <h1>BTS <br> for Lease/Sale</h1>
+                        <p style="width: 95%;">We build Industrial Warehouses according to the client's needs, with the
+                            flexibility that they can be for lease/sale.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 buldi">
+                    <div class="info">
+                        <img src="img/rec.png" alt="">
+                        <h1>Inventory Buildings <br> for Lease/Sale</h1>
+                        <p style="width: 90%;">We will have class A inventory ships ready for immediate occupation,
+                            which can be for lease/sale.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 border sliderMovil" style="overflow: hidden; height: 400px; display: none;">
+                    <div id="slider" class="slider">
+                        <div class="wrapper" id="prev next">
+                            <div id="items" class="items">
+                                <div class="slide indu">
+                                    <div class="info">
+                                        <img src="img/rec.png" alt="">
+                                        <h1>Industrial Lots <br> for Sale</h1>
+                                        <p style="width: 85%;">We sell fully developed Industrial Lots ranging from 1.1 hectares.</p>
+                                    </div>
+                                </div>
+                                <div class="slide imgBts">
+                                    <div class="info">
+                                        <img src="img/rec.png" alt="">
+                                        <h1>BTS <br> for Lease/Sale</h1>
+                                        <p style="width: 95%;">We build Industrial Warehouses according to the client's needs, with the
+                                            flexibility that they can be for lease/sale.</p>
+                                    </div>
+                                </div>
+                                <div class="slide imgBuldi">
+                                    <div class="info">
+                                        <img src="img/rec.png" alt="">
+                                        <h1>Inventory Buildings <br> for Lease/Sale</h1>
+                                        <p style="width: 90%;">We will have class A inventory ships ready for immediate occupation,
+                                            which can be for lease/sale.</p>
+                                    </div>
+                                </div>
+                                 <a id="prev" class="control prev" draggable="false"></a> <a id="next"
+                                    class="control next" draggable="false"></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </section>
+    </div>
+    <!--Slider tarjetas download information-->
+    <!------------------------------Download information + button------------------------------>
+    <div class="row contenedor subir">
+        <div class="col-md-6">
+            <div class="cajaInfo">
+                <img src="icons/libro.png" alt="">
+                <h1>Download information <br>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                </h1>
+            </div>
+        </div>
+        <div class="col-md-6 text-center">
+            <div class="btnDownload">
+                <a href="img/bts.png" download=""><button>DOWNLOAD PRESENTATION</button></a>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------columnas strategic location------------------------------->
+    <div class="row contenedor">
+        <div class="col-md-6 text-center cajaAbout">
+            <img class="imgAbout" src="img/mapa.png" alt="">
+        </div>
+        <div class="col-md-6 cajaAbout">
+            <div class="titulo">
+                <img class="rectangulo" src="img/rectangulo.png" alt="">
+                <p class="txtTit">Location</p>
+            </div>
+            <h1 class="txtUni">A strategic location</h1>
+            <p class="txtDesc">Located at Coahuila, Mexico, Laguna Industrial Park offers a peaceful and safe scene,
+                sorrounded by an economicly active population with over 60 universities in its vicinity.</p>
+            <ul class="txtLista">
+                <li>6 municipalities (4 Coahuila / 2 Durango)</li>
+                <li>Total Population: 1,193,143</li>
+                <li>62 universities with 7,500 Annual Graduates</li>
+                <li>23 technical schools with 10,700 Annual Graduates</li>
+                <li>4 bilingual schools (Elementary, junior high, high school)</li>
+                <li>Average daily salary of $299.35 mxn</li>
+            </ul>
+            <a href="#contacto"><button class="btnContact">CONTACT US</button></a>
+        </div>
+    </div>
+    <!------------------------------fin columnas strategic location--------------------------->
+    <!------------------------------columnas population around------------------------------->
+    <center>
+        <h1 class="txtPop">Population around Laguna Industrial Park</h1>
+    </center>
+    <div class="row contenedor cajaPop">
+        <div class="col-lg-7 col-md-12 col-sm-7 col-xs-12 imgPop">
+            <img src="img/circulo.png" alt="" style="width: 90%;">
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-5 col-xs-12 imgList">
+            <img src="img/List.png" alt="" style="width: 85%;">
+        </div>
+    </div>
+    <!------------------------------fin columnas population around------------------------------->
+    <!------------------------------columnas key benefits------------------------------------>
+    <div class="row cajaKey">
+        <div class="col-md-12 text-center ourModel">
+            <h1>Key benefits</h1>
+            <p class="txtBenefit">Laguna Industrial Park provides an excellent quality services in entertainment,
+                gastronomy, culture, health and tourism.</p>
+        </div>
+        <div class="col-lg-4">
+            <div class="infoKey">
+                <img src="icons/maletin.png" alt="">
+                <h1>Strong labor force in a 40 km radius <br>
+                    <p>With an economic active population of 720,802, Laguna has a great potential labor force which
+                        will allow for talent acquisition and scalability.</p>
+                </h1>
+            </div>
+
+        </div>
+        <div class="col-lg-4">
+            <div class="infoKey">
+                <img src="icons/gorro.png" alt="">
+                <h1>College graduates in engineering <br>
+                    <p>Collegue graduates from top school such as Ibero and Tec de Monterrey range from industrial or
+                        mechatronic or civil ingeneering to architects, ITL (Instituto Tecnologico de la Laguna).</p>
+                </h1>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="infoKey">
+                <img src="icons/qualiti.png" alt="">
+                <h1>Quality of life <br>
+                    <p>Over 34 medical institutions, more than 65 banks, 3 golf courses, 4 shopping malls and 20+
+                        hotels, Laguna Parks has a wide offer of quality services.</p>
+                </h1>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="infoKey">
+                <img src="icons/seguridad.png" alt="">
+                <h1>Security and social peace<br>
+                    <p>Coahuila, top 6 of the safest and most peaceful states in the Mexico according to the Institute
+                        of Economics and Peace.</p>
+                </h1>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="infoKey">
+                <img src="icons/avion.png" alt="">
+                <h1>STorreon International airport <br>
+                    <p>Torreon airport has direct flights to Mexico’s main cities, such as Mexico City, Monterrey,
+                        Guadalajara, Juárez, Tijuana, Cancun and Dallas, TX in the U.S.</p>
+                </h1>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="infoKey">
+                <img src="icons/tren.png" alt="">
+                <h1>Rail network <br>
+                    <p>Connection to the main railway lines of the country. Federal custom to direct acces to the
+                        intermodal cargo terminal 12 mi. from Laguna industrial Park.</p>
+                </h1>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="infoKey">
+                <img src="icons/ubi.png" alt="">
+                <h1>Location <br>
+                    <p>2.86 miles (4.6 kms) from the Matamoros Fire Department</p>
+                </h1>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="infoKey">
+                <img src="icons/ubi.png" alt="">
+                <h1>Medical Facility <br>
+                    <p>3.66 miles (5.9 kms) from Matamoros Medical facility.</p>
+                </h1>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="infoKey">
+                <img src="icons/ubi.png" alt="">
+                <h1>Close to airport <br>
+                    <p>11.8 miles (19 kms) from the Torreon International Airport</p>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!------------------------------fin columnas key benefits--------------------------------------->
+    <!------------------------------columnas solid infrastructure----------------------------------->
+    <div class="row cajaSolid">
+        <div class="col-lg-4 cajaFlotante">
+            <div class="titulo">
+                <img class="rectangulo imgLocation" src="img/rectangulo.png" alt="">
+                <p class="txtTit txtLocation" style="font-weight: 900; font-size: 15px;">Location</p>
+            </div>
+            <h1>Solid infraestructure</h1>
+            <p>Located at La Laguna Region, Laguna Industrial Park has invested in facilities and installations that
+                allow for scalability and reliance.</p>
+            <button>VIEW LOTS & DESCRIPTION</button>
+        </div>
+        <div class="col-lg-4 col-md-8 colInfo1">
+            <div class="infoSolid" style="margin-bottom: 20px;">
+                <img src="icons/icon-global.png" alt="">
+                <h1>Internal Regulations <br>
+                    <p>Rules and regulations for the operation of the park.</p>
+                </h1>
+            </div>
+            <div class="infoSolid">
+                <img src="icons/icon-telecomunicaciones.png" alt="">
+                <h1>Telecommunication <br>
+                    <p>Feasibility for voice & data network, antenna or fiber optic.</p>
+                </h1>
+            </div>
+            <div class="infoSolid">
+                <img src="icons/icon-cam.png" alt="">
+                <h1>Security 24/7 <br>
+                    <p>Security 24/7, Contolled access, CCTV..</p>
+                </h1>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-8 colInfo2">
+            <div class="infoSolid">
+                <img src="icons/icon-agua.png" alt="">
+                <h1>Water<br>
+                    <p>Water system SIMAS Matamoros city. Drainage system SIMAS Matamoros city. Rain water system -
+                        superficial and pipeline.</p>
+                </h1>
+            </div>
+            <div class="infoSolid">
+                <img src="icons/icon-parque.png" alt="">
+                <h1>Amenities <br>
+                    <p>Green Areas with in the park and Commercial area to be develop.</p>
+                </h1>
+            </div>
+            <div class="infoSolid">
+                <img src="icons/icon-energy.png" alt="">
+                <h1>Power Supply <br>
+                    <p>Electrical line medium tension 13.8 Kv. Public lightning - LED..</p>
+                </h1>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------fin columnas solid infrastructure------------------------------->
+    <!------------------------------columnas metro bus---------------------------------------------->
+    <div class="cajaContenedora">
+        <div class="row cajaMetro contenedor">
+            <div class="col-lg-6 infoBus">
+                <div class="titulo">
+                    <img class="rectangulo" src="img/rectangulo.png" alt="">
+                    <p class="txtTit">MOBILITY</p>
+                </div>
+                <h1>METRO BUS</h1>
+                <h3>Right in front of the industrial park, will pass the new urban transport route Torreón - Matamoros
+                    Metrobus; as well as the current transportation route Torreón - Matamoros - Viesca wich connects
+                    these three municipalities</h3>
+            </div>
+            <div class="col-md-6 text-center cajaAbout">
+                <img class="imgBus" src="img/metroBus.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------fin columnas metro bus------------------------------->
+
+    <!------------------------------columnas get to know----------------------------------->
+    <div class="row cajaVideo">
+        <div class="col-lg-6 infoVideo">
+            <img src="img/rec.png" alt="" style="position: relative;">
+            <h1>Get to know Laguna <br> Industrial Park</h1>
+            <p>Get to know Laguna Industrial Park</p>
+            <button>VIEW VIRTUAL TOUR</button>
+        </div>
+        <div class="col-lg-6 infoVideo">
+            <img src="img/rec.png" alt="" style="position: relative;">
+            <h1>Get to know Lagunassss <br> Industrial Park</h1>
+            <p>Get to know Laguna Industrial Park</p>
+            <button>VIEW VIRTUAL TOUR</button>
+        </div>
+    </div>
+    <!------------------------------columnas get to know----------------------------------->
+
+    <!------------------------------columnas empresas----------------------------------->
+    <div class="txtFinal text-center">
+        <h1>Some international companies established <br> in La Laguna region</h1>
+        <p>Every day, more world-class companies are turning to look at this prolific <br> area in northern Mexico.</p>
+    </div>
+    <div class="row contenedor justify-content-center text-center imgEscritorio" style="margin-bottom: 25px;">
+        <div class="col-lg-2 imgEmpresas"><img src="img/image1.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image2.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image3.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image4.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image5.png" alt=""></div>
+    </div>
+    <div class="row contenedor justify-content-center text-center imgEscritorio" style="margin-bottom: 25px;">
+        <div class="col-lg-2 imgEmpresas"><img src="img/image6.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image7.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image8.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image9.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image10.png" alt=""></div>
+    </div>
+    <div class="row contenedor justify-content-center text-center imgEscritorio" style="margin-bottom: 25px;">
+        <div class="col-lg-2"><img src="img/image11.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image12.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image13.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image14.png" alt=""></div>
+        <div class="col-lg-2 imgEmpresas"><img src="img/image15.png" alt=""></div>
+    </div>
+    <div class="row contenedor justify-content-center imgEscritorio">
+        <div class="col-lg-2 imgEmpresas"><img src="img/image16.png" alt=""></div>
+    </div>
+    <!--imagenes movil-->
+    <div class="contenedor empresasMovil">
+        <div class="row justify-content-between" style="margin-top: 35px;">
+            <div class="col-xs-4">
+                <img src="img/image1.png" alt="" width="100">
+            </div>
+            <div class="col-xs-4">
+                <img src="img/image2.png" alt="" width="100">
+            </div>
+            <div class="col-xs-4">
+                <img src="img/image3.png" alt="" width="100">
+            </div>
+        </div>
+        <div class="row justify-content-between" style="margin-top: 35px;">
+            <div class="col-xs-4">
+                <img src="img/image4.png" alt="" width="100">
+            </div>
+            <div class="col-xs-4">
+                <img src="img/image5.png" alt="" width="100">
+            </div>
+            <div class="col-xs-4">
+                <img src="img/image6.png" alt="" width="100">
+            </div>
+        </div>
+        <div class="row justify-content-center" style="margin-top: 35px;">
+            <div class="col-xs-12 btnView">
+                <button>VIEW ALL COMPANIES</button>
+            </div>
+        </div>
+    </div>
+    <!------------------------------fin columnas empresas----------------------------------->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="contacto" id="contacto">
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <!--jquery-->
     <script src="js/jquery-3.5.1.min.js"></script>
-    <!--bootstrap-->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/slider.js"></script>
 </body>
+
 </html>
