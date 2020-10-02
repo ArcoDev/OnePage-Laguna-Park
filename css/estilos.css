@@ -1088,3 +1088,7 @@ div.cajaFlotante {
     letter-spacing: 0;
     padding: 0px 45px;
 }
+
+area {
+    cursor: pointer;
+}
