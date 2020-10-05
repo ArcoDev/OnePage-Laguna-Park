@@ -1,4 +1,4 @@
-var slider = document.getElementById('slider'),
+var slider = document.getElementById('sliderMov'),
     sliderItems = document.getElementById('items'),
     prev = document.getElementById('prev'),
     next = document.getElementById('next');
@@ -11,9 +11,9 @@ function slide(wrapper, items, prev, next) {
       posInitial,
       posFinal,
       threshold = 100,
-      slides = items.getElementsByClassName('slide'),
+      slides = items.getElementsByClassName('slideMov'),
       slidesLength = slides.length,
-      slideSize = items.getElementsByClassName('slide')[0].offsetWidth,
+      slideSize = items.getElementsByClassName('slideMov')[0].offsetWidth,
       firstSlide = slides[0],
       lastSlide = slides[slidesLength - 1],
       cloneFirst = firstSlide.cloneNode(true),
