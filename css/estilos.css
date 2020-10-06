@@ -1320,3 +1320,26 @@ area {
 .colMap img {
     height: 430px;
 }
+
+@media screen and (max-width: 767px) {
+    .modal-content {
+        width: 370px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colMap img {
+        height: 220px;
+        margin-left: -50px;
+    }
+    .mapSlider {
+        height: 40%!important;
+        width: 60%!important;
+        margin-left: -55px!important;
+    }
+    #carouselExampleControls .carousel-control-prev-icon {
+        display: none;
+    }
+    #carouselExampleControls .carousel-control-next-icon {
+        display: none;
+    }
+}
