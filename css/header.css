@@ -83,9 +83,6 @@ header .div-links a{
     color: inherit;
 }
 
-select{
-    margin-left: 20px;
-}
 
 select:hover{
     font-weight: 600;

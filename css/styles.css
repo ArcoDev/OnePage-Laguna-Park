@@ -18,7 +18,11 @@ a {
     margin-right: auto;
 }
 
-button {
+.menu {
+    display: none;
+}
+
+/*button {
     transition: all .2s ease-in-out;
 }
 
@@ -26,150 +30,9 @@ button:hover {
     transform: scale(1.1);
     background-color: #3ba865;
     cursor: pointer;
-}
-
-/*Header*/
-header {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    height: 70px;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
-    z-index: 1000;
-    font-family: 'Montserrat', sans-serif;
-    box-shadow: 0px 7px 12px rgba(0, 57, 76, 0.05);
-}
-
-.div-logo {
-    display: flex;
-    align-items: center;
-    width: 18%;
-    padding: 20px 40px;
-}
-
-.div-logo img {
-    height: 100%;
-    width: 100%;
-}
-
-.div-links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 64%;
-}
-
-.div-links select {
-    height: fit-content;
-    margin-right: 20px;
-    color: #129B46;
-    border: none;
-}
-
-.div-tel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 18%;
-    background-color: #129B46;
-    height: 100%;
-}
-
-
-header ul {
-    display: flex;
-    list-style: none;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-header ul li {
-    margin: 0 10px;
-    color: #5F7D95;
-    transition: all 0.1s ease-in-out;
-}
-
-.div-links ul li:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    color: #129B46;
-    text-decoration: underline;
-}
-
-
-ul li.active {
-    color: #129B46;
-}
-
-select {
-    margin-left: 20px;
-}
-
-select:hover {
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.selects {
-    display: flex;
-}
-
-#google_translate_element {
-    font: inherit;
-}
-
-#google_translate_element span:nth-of-type(0) {
-    font: inherit;
-}
-
-#google_translate_element span:nth-of-type(1) {
-    color: #129B46 !important;
-    font: inherit;
-    content: "Eng";
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-#google_translate_element span:nth-of-type(2) {
+}*/
+.offcanvas-header {
     display: none;
-}
-
-#google_translate_element span:nth-of-type(3) {
-    color: #129B46 !important;
-}
-
-#google_translate_element img {
-    display: none;
-}
-
-.goog-te-gadget-simple {
-    border: none;
-    font-family: inherit;
-}
-
-i {
-    color: white;
-    margin-right: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    transition: all 0.1s ease-in-out;
-}
-
-a:hover {
-    font-weight: 600;
-    transform: scale(1.1);
-    color: white;
 }
 
 /* Carousel Hero */
@@ -225,9 +88,9 @@ a:hover {
 }
 
 /*columnas azules*/
-.columnasAzul {
+.cajasAzul {
     /*margin-top: -50px;*/
-    margin-bottom: 50px;
+    margin-bottom: 90px !important;
 
 }
 
@@ -316,7 +179,7 @@ a:hover {
 /*columnas proyect galery*/
 .infoProy {
     padding-top: 40px !important;
-    margin-left: -38px;
+
 }
 
 .cajProy h1 {
@@ -365,6 +228,10 @@ a:hover {
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
+}
+
+#imgModal {
+    padding: 50px;
 }
 
 #colLotes button {
@@ -795,8 +662,16 @@ div.cajaFlotante {
         font-family: 'Montserrat', sans-serif;
     }
 
+    #header {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
     /*columnas azules*/
-    .columnasAzul {
+    .cajasAzul {
         width: 90%;
     }
 
@@ -981,8 +856,97 @@ div.cajaFlotante {
         font-family: 'Montserrat', sans-serif;
     }
 
+    #header {
+        display: none;
+    }
+
+    #fondoNav {
+        background: white;
+        box-shadow: 0px 3px #cfdadd9a;
+    }
+
+    #iconMov1,
+    #iconMov2 {
+        height: 40%;
+    }
+
+    #iconMov2 {
+        display: none;
+    }
+
+    #cerrar {
+        display: none;
+    }
+
+    .navbar-toggler-icon {
+        color: #FFFFFF;
+    }
+
+    .iconTel {
+        margin-left: 95px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url('../icons/hamburgesa.png') !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+        font-size: 1rem !important;
+    }
+
+    .menu {
+        display: block !important;
+        width: 100%;
+    }
+
+    .linkMovil li {
+        color: #FFFFFF;
+        font-size: 25px;
+        font-weight: 900;
+        list-style: none;
+        padding: 10px 0px;
+    }
+
+    .idioma {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .idioma a {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 900;
+        padding: 0;
+        margin: 0;
+    }
+    
+
+    /* carousel hero */
+    .carousel-item img {
+        height: 535px;
+        width: 100% !important;
+        background-size: cover !important;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-caption h1 {
+        display: block;
+        position: absolute;
+
+    }
+
+    .carousel-indicators li {
+        padding: 2px 7px;
+    }
+
+
     /*columnas azules*/
-    .columnasAzul {
+    .cajasAzul {
         width: 90%;
     }
 
@@ -1034,12 +998,14 @@ div.cajaFlotante {
         font-size: 12px;
         margin-left: 15px;
     }
-
     /*columnas ourmodel*/
+    .ourModel {
+        margin-top: 30px;
+    }
     #lotes {
         margin-top: 35px;
         margin-left: -26px;
-        height: 220px;
+        height: 200px;
     }
 
     #colLotes button {
@@ -1053,8 +1019,13 @@ div.cajaFlotante {
         border: transparent;
     }
 
+    .imgFases img {
+        margin-left: -20px;
+    }
+
     /*columnas download info*/
     .colProy {
+        height: 320px;
         background: #ffffff;
     }
 
@@ -1197,7 +1168,7 @@ div.cajaFlotante {
     }
 
     .cajaFlotante h1 {
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 900;
     }
 
@@ -1244,7 +1215,7 @@ div.cajaFlotante {
     }
 
     .infoBus h1 {
-        font-size: 45px;
+        font-size: 35px;
         margin-top: -10px;
     }
 
@@ -1267,12 +1238,13 @@ div.cajaFlotante {
     }
 
     .txtFinal h1 {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 900;
     }
 
     .txtFinal p {
-        width: 85%;
+        font-size: 16px;
+        width: 95%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1400,7 +1372,7 @@ div.cajaFlotante {
     font-size: 20px;
     color: #1E9CAC;
     letter-spacing: 0;
-    padding: 0px 45px;
+    /*padding: 0px 45px;*/
 }
 
 .subtitulo {
@@ -1480,24 +1452,18 @@ area {
         margin-left: auto;
         margin-right: auto;
         padding: 0;
+        margin-left: 15px;
     }
 
-    .colMap img {
-        height: 220px;
+    /*.colMap img {
+        height: 70%;
+        width: 70%;
         margin-left: -55px;
+    }*/
+
+    img#imgModal {
+        height: 220px;
+        padding: 0;
     }
 
-    .mapSlider {
-        height: 80% !important;
-        width: 60% !important;
-        margin-left: -75px !important;
-    }
-
-    #carouselExampleControls .carousel-control-prev-icon {
-        display: none;
-    }
-
-    #carouselExampleControls .carousel-control-next-icon {
-        display: none;
-    }
 }
